@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        
+        <section>
+            <h2>Get in Touch</h2>
+            <p>We are here to answer any questions you may have about TechCon 2024.</p>
+            
+            <h3>Official Email</h3>
+            <p>For general inquiries, please email us directly:</p>
+            <p><a href="mailto:email@example.com">email@example.com</a></p>
+
+            <h3>Social Media</h3>
+            <p>Follow us and stay updated on our official channels:</p>
+            <ul>
+                <li><a href="https://twitter.com/TechCon2024" target="_blank">Twitter / X</a></li>
+                <li><a href="https://linkedin.com/company/TechCon2024" target="_blank">LinkedIn</a></li>
+                <li><a href="https://instagram.com/TechCon2024" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Conference Venue Location</h2>
+            <p>Find us here: [Placeholder Venue Name, City]</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.282910795405!2d-73.9877421845946!3d40.74844007932626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2596b6d573d8b%3A0x6a0a09e0a8b0d2d!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1605552000000!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Google Map showing the conference venue location">
+            </iframe>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Send Us a Message</h2>
+            <form action="/submit-contact" method="POST">
+                
+                <div>
+                    <label for="contactName">Your Name:</label>
+                    <input type="text" id="contactName" name="contactName" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="contactEmail">Your Email:</label>
+                    <input type="email" id="contactEmail" name="contactEmail" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <br>
+
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>copyright &copy; 2024 TechCon Conference</p>
+    </footer>
+
+</body>
+</html>
